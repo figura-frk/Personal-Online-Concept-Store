@@ -115,6 +115,9 @@ img {
      .logo-container a {
         margin: 2rem;
     }
+    .header-wrapper {
+        flex-direction: row;
+    }
         
     
 }

@@ -23,10 +23,6 @@ body {
     flex-wrap: wrap;
 }
 
-img {
-    width: min(90%, 50.5rem);
-}
-
 .header-wrapper  {
     display: flex;
     align-items: center;
@@ -39,6 +35,12 @@ img {
     font-size: 5rem ;
     text-decoration: none;
     color:var(--clr-primary);  
+    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
 .logo-container a:hover {
@@ -161,7 +163,7 @@ img {
 }
 
 img {
-    width: min(90%, 30.5rem);
+    width: min(100%, 38.5rem);
     margin-bottom: 2rem;
 }
 
